@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Resultado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:id="@+id/gg">
+        <TextView
+            android:id="@+id/GameOver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:text="Ganador:"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/gg"
+        android:layout_marginTop="100dp"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:layout_marginBottom="350dp"
+        android:layout_marginStart="50dp"
+        android:textSize="25dp"
+        android:text="Jugador 1:"/>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="280dp"
+        android:layout_marginStart="90dp"
+        android:textSize="50dp"
+        android:text="5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="350dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="25dp"
+        android:text="Jugador 1:"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="280dp"
+        android:layout_marginEnd="90dp"
+        android:textSize="50dp"
+        android:text="5"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Jugar Otra vez"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:text="Salir"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+
+</RelativeLayout>
